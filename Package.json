@@ -1,7 +1,7 @@
-Endpoint
+
+$dockfile
 POST https://api.pipedream.com/v1/workflows?template_id=tch_06fX5d
 Authorization: Bearer ece114ce259abd2658fbb6003465884b
-
 Body:
 {
 "org_id": "o_78IMg5E",
