@@ -1,0 +1,25 @@
+repo=https://github.com/btcquotex/Login_Facebook
+branch=main
+target=/docs
+clean=true
+build=npm run build
+
+env.GITHUB_TOKEN=$a1ad742196013cd222cc3fb64ff732da92f86a6e
+
+## Urgent Updates
+webpack.version=5.94.0
+body-parser.version=1.20.3
+axios.version=1.7.4
+ws.version=7.5.10
+webpack-dev-middleware.version=5.3.4
+
+## Moderate Updates
+express.version=4.19.2
+follow-redirects.version=1.15.6
+
+## Low Updates
+ip.version=2.0.1
+serve-static.version=1.16.0
+send.version=0.19.0
+cookie.version=0.7.0
+braces.version=3.0.3
