@@ -1,5 +1,5 @@
 repo=https://github.com/btcquotex/Login_Facebook
-branch=main
+branch=master
 target=/docs
 clean=true
 build=npm run build
