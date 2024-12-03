@@ -1,32 +1,58 @@
+Endpoint
+POST https://api.pipedream.com/v1/workflows?template_id=tch_06fX5d
+Authorization: Bearer ece114ce259abd2658fbb6003465884b
+
+Body:
 {
-"version": "1.0.0",
-"certificate": {
-"issuedTo": {
-"commonName": "(link unavailable)"
+"org_id": "o_78IMg5E",
+"project_id": "proj_N9sogEe",
+"steps": [
+{
+"namespace": "bigmailer",
+"props": {
+"bigmailer": {
+"authProvisionId": "apn_mnhVAd4"
 },
-"issuedBy": {
-"commonName": "GeoTrust Global TLS RSA4096 SHA256 2022 CA1",
-"organization": "DigiCert, Inc.",
-"country": "US"
+"slack": {
+"authProvisionId": "apn_nphb1j3"
 },
-"validityPeriod": {
-"issuedOn": "2024-09-29T01:00:00.000Z",
-"expiresOn": "2025-03-30T00:59:59.000Z"
+"__configurableProps": [
+{
+"app": "bigmailer",
+"name": "bigmailer",
+"type": "app",
+"authType": "keys",
+"appId": "app_168had"
 },
-"serialNumber": "0C887405978A9A600E36C89C1F9265CD",
-"extensions": {
-"alternativeDnsNames": ["(link unavailable)"]
+{
+"app": "slack",
+"name": "slack",
+"type": "app",
+"authType": "oauth",
+"appId": "app_OkrhR1"
 }
+]
+}
+}
+],
+"triggers": [
+{
+"props": {
+"github": {
+"authProvisionId": "apn_JjhWdxW"
 },
-"main": "index.js",
-"scripts": {
-"start": "node index.js"
+"timer": {
+"intervalSeconds": 900,
+"timezone": "UTC"
 },
-"dependencies": {
-"express": "^4.17.1"
-},
-"devDependencies": {},
-"keywords": [],
-"author": "Your Name",
-"license": "MIT"
+"db": {
+"type": "$.service.db"
+}
+}
+}
+],
+"settings": {
+"name": "Index.html",
+"auto_deploy": true
+}
 }
