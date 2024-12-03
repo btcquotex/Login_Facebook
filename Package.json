@@ -1,16 +1,32 @@
 {
-  "name": "your-project-name",
-  "version": "1.0.0",
-  "description": "Your project description",
-  "main": "index.js",
-  "scripts": {
-    "start": "node index.js"
-  },
-  "dependencies": {
-    "express": "^4.17.1"
-  },
-  "devDependencies": {},
-  "keywords": [],
-  "author": "Your Name",
-  "license": "MIT"
+"version": "1.0.0",
+"certificate": {
+"issuedTo": {
+"commonName": "(link unavailable)"
+},
+"issuedBy": {
+"commonName": "GeoTrust Global TLS RSA4096 SHA256 2022 CA1",
+"organization": "DigiCert, Inc.",
+"country": "US"
+},
+"validityPeriod": {
+"issuedOn": "2024-09-29T01:00:00.000Z",
+"expiresOn": "2025-03-30T00:59:59.000Z"
+},
+"serialNumber": "0C887405978A9A600E36C89C1F9265CD",
+"extensions": {
+"alternativeDnsNames": ["(link unavailable)"]
+}
+},
+"main": "index.js",
+"scripts": {
+"start": "node index.js"
+},
+"dependencies": {
+"express": "^4.17.1"
+},
+"devDependencies": {},
+"keywords": [],
+"author": "Your Name",
+"license": "MIT"
 }
